@@ -79,7 +79,7 @@ let running = false;
 function main() {
 	gl.useProgram(program);
 	gl.bindVertexArray(vertexArray);
-	gl.drawElements(gl.TRIANGLES, 3, gl.UNSIGNED_SHORT, 0);z
+	gl.drawElements(gl.TRIANGLES, 3, gl.UNSIGNED_SHORT, 0);
 	if (running)
 		window.requestAnimationFrame(main);	
 }
