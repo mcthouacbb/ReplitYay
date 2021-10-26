@@ -67,7 +67,7 @@ const indexBuffer = gl.createBuffer();
 gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, indexBuffer);
 gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, indices, gl.STATIC_DRAW);
 
-gl.enableVertexAttibArray(0);
+gl.enableVertexAttribArray(0);
 gl.vertexAttribPointer(0, 3, gl.FLOAT, false, 24, 0);
 gl.enableVertexAttribArray(1);
 gl.vertexAttribPointer(1, 3, gl.FLOAT, false, 24, 12);
